@@ -1,11 +1,19 @@
-.row.content {height: 950px}
+.snow{
+    background-color: antiquewhite;
+}
+.row.content {height: 855px}
 
 .sidenav {
-    background-color: #000000;
+    background-color: rgb(32, 32, 32);
     height: 100%;
 }
-
 .white {
     text-align: center;
     color: white;
+}
+.snow1 {
+    color: white;
+}
+.card {
+    float: right;
 }
