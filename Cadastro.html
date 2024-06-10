@@ -11,5 +11,42 @@
   <script src='main.js'></script>
 </head>
 <body>
-    <h1 style="font-size: 500px; text-align: center; background-color: blue; color: white;">RAIANE</h1>
+    <div class="cadastro">
+        <h1 class="novo">Cadastro Novo Cliente</h1>
+        <form action="sucesso.html" method="post">
+          <div class="tudo">
+            <div class="mb-3">
+              <label for="nome" class="form-label">Nome do titular</label>
+              <input type="text" id="nome" name="nome" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">CPF</label>
+              <input type="text" id="cpf" name="cpf" class="form-control" required>
+              <div class="form-text"> Nunca compartilharemos seu CPF com mais ninguém.</div>
+            </div>
+            <div class="mb-3">
+              <label for="telefone" class="form-label">DDD + Telefone</label>
+              <input type="text" id="telefone" name="telefone" class="form-control" placeholder="(xx)xxxxx-xxxx" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Endereço de email</label>
+              <input type="email" id="email" name="email" class="form-control" aria-describedby="emailHelp" required>
+              <div id="emailHelp" class="form-text"> Nunca compartilharemos seu e-mail com mais ninguém.</div>
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Senha</label>
+              <input type="password" id="senha" name="senha" class="form-control" required>
+              <div id="passwordHelpBlock" class="form-text">
+              Sua senha deve ter de 8 a 20 caracteres, conter letras e números e não deve conter espaços, caracteres especiais ou emoji.
+              </div>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+              <label class="form-check-label" for="exampleCheck1">Verificação</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+          </div>
+        </form>
+    </div>
 </body>
+</html>

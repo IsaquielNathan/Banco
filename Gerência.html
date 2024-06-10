@@ -1,15 +1,76 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset='utf-8'>
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>Gerência do Isaquielo</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel='stylesheet' type='text/css' media="screen" href="./css/main.css">
-  <link rel='stylesheet' type='text/css' media='screen' href='./css/bootstrap.min.css'>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src='main.js'></script>
-</head>
-<body>
-    <h1 style="font-size: 500px; text-align: center;">RAIANE</h1>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Gerência do Isaquielo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row content">
+        <div class="col-sm-3 sidenav hidden-xs">
+          <h1 class="white">Situação atual do banco</h1>
+          <ul class="nav nav-pills nav-stacked">
+            <li><a href="#section1">Situação Clientes</a></li>
+            <li><a href="#section2">Empréstimos ativos</a></li>
+            <li><a href="#section3">Financiamento carros</a></li>
+            <li><a href="#section4">Lugares onde tem o Isaquielo e faturamentos</a></li>
+            <li><a href="#section5">Receitas e despesas</a></li>
+            <li><a href="#section6">Porcentagem de problemas resolvidos</a></li>
+          </ul>
+        </div>            
+        <div class="col-sm-9">
+          <div class="dados-bancários">
+            <h1>Isaquielo</h1>
+            <p>Bem-vindo à página de gerência do banco. Aqui você pode acompanhar a situação atual do banco.</p>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <img src="./img/grafico_clientes.png" class="card-img-top" alt="clientes ativos e inativos">
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img src="./img/grafico_emprestimo.png" class="card-img-top" alt="empréstimos ativos">
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img src="./img/grafico_carros.png" class="card-img-top" alt="financiamento carros">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <img src="https://www.abevd.org.br/wp-content/uploads/mapa-paises-venda-direta-mundo-abevd-ranking-2022.gif" class="card-img-top" alt="lugares onde tem o Isaquielo e o faturamento">
+                <div class="card-body">
+                  <h5 class="card-title">Lugares onde tem o Isaquielo e faturamentos</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img src="https://d23vy2bv3rsfba.cloudfront.net/questoes_imagens/0_80095cdbb77d7d0c5cc9b303590779f0_4141754.jpg.png" class="card-img-top" alt="receitas e despesas">
+                <div class="card-body">
+                  <h5 class="card-title">Receitas e despesas</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img src="https://pallottamartins.com.br/wp-content/uploads/2019/10/02.png" class="card-img-top" alt="porcentagem de problemas resolvidos">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
