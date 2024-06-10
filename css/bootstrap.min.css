@@ -1,19 +1,40 @@
-.snow{
-    background-color: antiquewhite;
-}
-.row.content {height: 855px}
+.row.content {height: 950px}
 
 .sidenav {
-    background-color: rgb(32, 32, 32);
+    background-color: #000000;
     height: 100%;
 }
+
 .white {
     text-align: center;
     color: white;
 }
-.snow1 {
-    color: white;
+
+.novo {
+    text-align: center;
 }
+
+.mb-3 {
+    margin-top: 60px;
+}
+
+.tudo {
+    margin-left: 700px;
+    margin-right: 700px;
+}
+
 .card {
-    float: right;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 80px;
+    width: 18rem;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-img-top {
+    width: 400px;
 }
