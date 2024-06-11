@@ -1,4 +1,4 @@
-.row.content {height: 950px}
+.row.content {height: 990px}
 
 .sidenav {
     background-color: #000000;
@@ -37,4 +37,9 @@
 
 .card-img-top {
     width: 400px;
+}
+
+.Título{
+    font-size: large;
+    float: right; 
 }
