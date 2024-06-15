@@ -1,4 +1,6 @@
-.row.content {height: 990px}
+.row.content {
+    height: 990px
+}
 
 .sidenav {
     background-color: #000000;
@@ -39,7 +41,46 @@
     width: 400px;
 }
 
-.Título{
+.Título {
     font-size: large;
-    float: right; 
+    float: right;
+}
+
+.cliente {
+    text-align: center;
+
+}
+
+.pix {
+    margin-left: 370px;
+    margin-right: 370px;
+
+}
+
+.serviços {
+    margin-left: 370px;
+    margin-right: 370px;
+}
+
+.clienteimg {
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 80px;
+    width: 18rem;
+}
+
+.saldo {
+    width: 400px;
+    max-height: 50px;
+    max-width: 100px;
+}
+
+.imagem-pequena {
+    max-width: 300px;
+    height: auto;
+}
+
+.emprestimo {
+    font-size: x-small;
 }

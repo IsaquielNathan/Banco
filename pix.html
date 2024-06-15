@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Transações</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media="screen" href="./css/main.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/bootstrap.min.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <h1 class="cliente">Realizar pix</h1>
+    <div class="container">
+        <form action="">
+
+            <div class="pix">
+                <div>
+                    <label for="nome">Nome</label>
+                    <textarea id="nome" name="nome" class="form-control" rows="1"
+                        placeholder="Escreva o seu nome"></textarea>
+
+                </div>
+
+
+                <div>
+                    <label for="cpf">CPF</label>
+                    <textarea id="cpf" name="cpf" class="form-control" rows="1"
+                        placeholder="Digite o seu CPF"></textarea>
+
+                </div>
+                <br>
+
+                <div>
+                    <div class="container p-1">
+                        <select name="" id="">
+                            <option value="opção">Selecione a opção </option>
+                            <option value="Email">Email</option>
+                            <option value="CPF/CNPJ">CPF/CNPJ</option>
+                            <option value="Telefone">Telefone</option>
+                            <option value="Chave aleatória">Chave aleatória</option>
+                            <option value="Código de barras">Código de barras</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="pix" class="form-label">Digite a chave</label>
+                        <input type="text" id="chave" name="chave" class="form-control" required>
+                    </div>
+
+                    <div>
+                        <label for="valor">Valor da transferência</label>
+                        <input type="number" id="valor" name="valor" class="form-control" placeholder="R$" required>
+                    </div>
+                    <div>
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" class="form-control" rows="1"
+                            placeholder="Escreva uma mensagem"></textarea>
+                    </div>
+                </div>
+
+
+        </form>
+        <div>
+            <br>
+            <button type="button" class="btn btn-primary">Realizar transação</button>
+</body>
+
+</html>
