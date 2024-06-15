@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Previdência</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media="screen" href="./css/main.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/bootstrap.min.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src='main.js'></script>
+</head>
+
+
+<body>
+    <h1 class="cliente">Transferência</h1>
+    <div class="container">
+        <form action="">
+            <div class="serviços">
+
+                <div class="form-group">
+                    <label for="nomeInvest">Nome</label>
+                    <input type="text" class="form-control" id="nomeInvest" placeholder="Seu nome">
+                </div>
+                <div class="form-group">
+                    <label for="cpf">CPF</label>
+                    <input type="text" class="form-control" id="cpf" name="cpf" placeholder="Digite seu CPF">
+                </div>
+
+                <div class="form-group">
+                    <label for="empresaorigem">Empresa origem</label>
+                    <select class="form-control" id="servico" name="empresaorigem">
+                        <option value="isaquielo">Isaquielo</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="empresa">Empresa Destinatária</label>
+                    <input type="text" class="form-control" id="empresa" name="empresa"
+                        placeholder="Digite o nome da empresa">
+                    <div class="form-group">
+                        <label class="form-label">Data</label>
+                        <input type="date" class="form-control" id="data" name="data"
+                            placeholder="Digite a data da transferência">
+
+
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="valor">Valor</label>
+                        <input type="number" class="form-control" id="valor" name="valor"
+                            placeholder="Digite o valor da transferência">
+                    </div>
+                    <div>
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" class="form-control" rows="1"
+                            placeholder="Escreva uma mensagem"></textarea>
+                    </div>
+                    <br>
+                    <button type="button" class="btn btn-primary">Realizar transação</button>
+                </div>
+            </div>
+        </form>
+
+
+
+</body>
+
+</html>

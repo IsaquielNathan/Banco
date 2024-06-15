@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Emprestimo</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media="screen" href="./css/main.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/bootstrap.min.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src='main.js'></script>
+</head>
+
+
+<body>
+    <h1 class="cliente">Emprestimo</h1>
+    <div class="container">
+        <form action="">
+            <div class="serviços">
+
+                <div class="form-group">
+                    <label for="nomeInvest">Nome</label>
+                    <input type="text" class="form-control" id="nomeInvest" placeholder="Seu nome">
+                </div>
+                <div class="form-group">
+                    <label for="cpf">CPF</label>
+                    <input type="text" class="form-control" id="cpf" name="cpf" placeholder="Digite seu CPF">
+                </div>
+
+                <div class="form-group">
+                    <label for="servico">Serviço</label>
+                    <select class="form-control" id="servico" name="servico">
+                        <option value="emprestimos">Empréstimo</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="valor">Tabela de emprestimo</label>
+                    <select class="form-control" id="servico" name="servico">
+                        <option value="valoremprestimo">Valor do emprestimo</option>
+                        <option value="100 reais">100 R$</option>
+                        <option value="500 reais">500 R$</option>
+                        <option value="1000 reais">1000 R$</option>
+                        <option value="1500 reais">1500 R$</option>
+                        <option value="2000 reais">2000 R$</option>
+                    </select>
+                </div>
+
+
+
+                <div class="form-group">
+                    <label for="valor">Outro valor</label>
+                    <input type="number" class="form-control" id="valor" name="valor"
+                        placeholder="Solicite um emprestimo maior">
+                </div>
+                <div class="emprestimo"> Valores acima da tabela, seguem a politica de cobrar juros no valor de 120%
+                    semanal.</label>
+                    <label for="mensagem">
+                </div>
+
+                <button type="button" class="btn btn-primary btn-lg">Finalizar emprestimo</button>
+
+            </div>
+    </div>
+    </form>
+
+
+
+</body>
+
+</html>
